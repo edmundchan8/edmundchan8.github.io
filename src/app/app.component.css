@@ -1,0 +1,64 @@
+span {
+    margin: 20px;
+}
+
+/* resize background images to one size */
+.backgroundOne {
+    /* The image used */
+    background-image: url("/assets/img/backgroundOne.png");
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  
+.backgroundTwo {
+    /* The image used */
+    background-image: url("/assets/img/backgroundImage02.png");
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .backgroundThree {
+    /* The image used */
+    background-image: url("/assets/img/backgroundImage03.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .banner {
+      width: 100vw;
+  }
+
+/* FONTS */
+@font-face {
+    font-family: poppin-med;
+    src: url("/assets/font/Poppins-Medium.ttf") format("opentype");
+  }
+
+
+  .bannerFont {
+    font-family: 'poppin-med', 'arial', sans-serif;
+    font-size: 50px;
+  }
+
+  .app-toolbar {
+    top: 0;
+    position: fixed;
+  }
+
+  /* push content below toolbar down, so toolbar doesn't cover content */
+  .toolbar-margin-bottom {
+    margin-bottom: 60px;
+  }
+
+  .align-center {
+    margin: auto;
+  }
