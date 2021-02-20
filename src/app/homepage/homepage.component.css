@@ -1,0 +1,23 @@
+/* resize background images to one size */
+.backgroundOne {
+    /* The image used */
+    background-image: url("/assets/img/bgImage01c.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .bannerFont {
+    padding: 40px 10px 0 0;
+    line-height: 1em;
+  }
+
+  .extra-Large-Font{
+    font-size: 70px;
+  }
+
+  .jose-font {
+    font-family: 'josefinSans-italic', 'arial', sans-serif;
+  }

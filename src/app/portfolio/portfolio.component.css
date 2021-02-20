@@ -1,0 +1,33 @@
+.large-Font{
+    font-size: 50px;
+}
+
+.jose-font {
+  font-family: 'josefinSans-italic', 'arial', sans-serif;
+}
+
+.portfolio-margin-spacing{
+    margin: 0 2em;
+    }
+
+.portfolio-img{
+    /* height: 11em; */
+    height: 200px;
+    max-width: 250px;
+    border-radius: 10px;
+    opacity: 85%;
+    margin: auto;
+}
+
+.portfolio-row{
+    float: left;
+    max-width: 275px;
+}
+
+.margin-title-spacing{
+    margin-bottom: 2em;
+}
+
+.mat-title-font{
+    font-size: 9px;
+}

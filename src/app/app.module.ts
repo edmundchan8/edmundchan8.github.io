@@ -1,14 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from '../app/material/material.component'
+import { MaterialModule } from './material/material.component'
+import { HomepageComponent } from './homepage/homepage.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent,
+    NavbarComponent,
+    AboutComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -19,4 +26,5 @@ import { MaterialModule } from '../app/material/material.component'
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
