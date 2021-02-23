@@ -7,8 +7,9 @@
 }
 
 .portfolio-margin-spacing{
-    margin: 0 2em;
-    }
+    display: block;
+    margin: 2em;
+}
 
 .portfolio-img{
     /* height: 11em; */
