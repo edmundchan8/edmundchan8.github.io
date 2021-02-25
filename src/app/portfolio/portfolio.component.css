@@ -32,3 +32,8 @@
 .mat-title-font{
     font-size: 9px;
 }
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
