@@ -33,7 +33,11 @@
     font-size: 9px;
 }
 
-.flex{
+/* flex on desktop */
+.flexcontainer{
     display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
     justify-content: center;
+    flex-flow: row wrap;
 }
