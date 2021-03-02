@@ -13,3 +13,7 @@
   .jose-font {
     font-family: 'josefinSans-italic', 'arial', sans-serif;
   }
+
+  .anchor-offset {
+    padding-top: 5em;
+  }

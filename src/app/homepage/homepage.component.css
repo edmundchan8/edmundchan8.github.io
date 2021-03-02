@@ -21,3 +21,7 @@
   .jose-font {
     font-family: 'josefinSans-italic', 'arial', sans-serif;
   }
+
+  .anchor-offset {
+    scroll-margin-top: 3em;
+  }
