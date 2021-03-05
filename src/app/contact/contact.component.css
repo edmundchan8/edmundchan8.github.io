@@ -1,0 +1,15 @@
+.large-Font{
+    font-size: 50px;
+}
+
+.jose-font {
+  font-family: 'josefinSans-italic', 'arial', sans-serif;
+}
+
+.text-margin {
+    margin: 0em 2em;
+}
+
+.anchor-offset {
+  padding-top: 5em;
+}

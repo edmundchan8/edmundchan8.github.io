@@ -1,4 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; }
+
+.fixed-margin {
+    margin: 20px;
+}
+
+/* Background Color */
+.bg-div-color {
+  background-color: #f3f5ff;
+}
+
+/* Font Color */
+.bg-font-color{
+    color: white;
+}
+
+.banner {
+    width: 100vw;
+}
+
+
+/* Personal Photo */
+.photo{
+  border: 2px dotted white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+}
+
+/* Display flex my photo and website title */
+.website-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FONTS */
+@font-face {
+    font-family: poppin-med;
+    src: url("/assets/fonts/Poppins-Medium.ttf") format("opentype");
+}
+
+@font-face {
+font-family: josefinSans-italic;
+src: url("/assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf") format("opentype");
+}
+
+.text-left-align {
+display: inline-block;
+text-align: left;
+}
+
+.margin-top{
+margin-top: 40px;
+}
+
+.padding-bottom{
+padding-bottom: 40px;
+}
+
+.padding-top{
+padding-top: 40px;
+}
+
+.text-line-gap{
+line-height: 3em;
+}
+
+.align-text-center {
+text-align: center;
+}
+
+.align-image-center {
+display: block;
+margin: auto;
+}
+
+.icon-formatting{
+line-height: 4em;
+}
+
+.bordering{
+border: 5px solid red;
+}

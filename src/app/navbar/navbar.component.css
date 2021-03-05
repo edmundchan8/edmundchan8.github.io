@@ -1,0 +1,11 @@
+/* Always in front */
+.app-toolbar {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+  /* push content below toolbar down, so toolbar doesn't cover content */
+  .toolbar-margin-bottom {
+    margin-bottom: 60px;
+  }
