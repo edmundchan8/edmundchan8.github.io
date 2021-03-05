@@ -1,0 +1,41 @@
+/* resize background images to one size */
+.backgroundOne {
+    /* The image used */
+    background-image: url("/assets/img/bgImage01c.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bannerFont {
+    padding: 40px 10px 0 0;
+    line-height: 1em;
+  }
+
+  .extra-Large-Font{
+    font-size: 70px;
+  }
+
+  .jose-font {
+    font-family: 'josefinSans-italic', 'arial', sans-serif;
+    
+  }
+
+  .anchor-offset {
+    scroll-margin-top: 3em;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .extra-Large-Font {
+      font-size: 52px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .extra-Large-Font {
+      font-size: 42px;
+    }
+  }
