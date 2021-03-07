@@ -10,16 +10,7 @@
     display: block;
     margin: 2em;
 }
-
-.portfolio-img{
-    /* height: 11em; */
-    height: 200px;
-    max-width: 250px;
-    border-radius: 10px;
-    opacity: 85%;
-    margin: auto;
-}
-
+/*  
 .portfolio-row{
     float: left;
     max-width: 275px;
