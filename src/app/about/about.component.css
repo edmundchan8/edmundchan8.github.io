@@ -1,3 +1,7 @@
+div {
+  margin: 0 5px;
+}
+
 /* resize background images to one size */
 .backgroundTwo {
     -webkit-background-size: cover;
@@ -17,3 +21,23 @@
   .anchor-offset {
     padding-top: 5em;
   }
+
+  p {
+    font-size: 25px;
+  }
+
+  /* Media screens for tablets */
+  @media only screen
+    and (max-device-width: 1024px)  {
+    p {
+      font-size: 20px
+    }
+  }
+
+  /* Media screens for mobile phones */
+  @media only screen 
+  and (max-device-width: 768px)  { 
+    p {
+      font-size: 14px;
+    }
+}

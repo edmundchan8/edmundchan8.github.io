@@ -9,3 +9,11 @@
   .toolbar-margin-bottom {
     margin-bottom: 60px;
   }
+
+  /* Media screens for mobile phones */
+@media only screen 
+and (max-device-width: 768px)  { 
+ a {
+   font-size: 10px;
+ }
+}
